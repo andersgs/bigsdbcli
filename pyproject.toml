@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bigsdbcli"
+version = "0.1.0"
+description = "A commandline interface to BIGSDB API"
+authors = ["Anders Goncalves da Silva <andersgs@gmail.com>"]
+license = "GPL-3.0"
+readme = 'README.rst'
+
+[tool.poetry.dependencies]
+python = "3.7"
+requests = "^2.19"
+rauth = "^0.7.3"
+toml = "^0.9.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.7"

@@ -1,0 +1,4 @@
+__pycache__
+.pytest_cache
+pubmlst_auth.py
+mlst_submission.py
