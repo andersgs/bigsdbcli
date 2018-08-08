@@ -5,6 +5,12 @@ description = "A commandline interface to BIGSDB API"
 authors = ["Anders Goncalves da Silva <andersgs@gmail.com>"]
 license = "GPL-3.0"
 readme = 'README.rst'
+packages = [
+        {include = 'bigsdbcli'},
+        {include = 'bigsdbcli.configs'}
+    ]
+include = ["config_test.toml"]
+
 
 [tool.poetry.dependencies]
 python = "3.7"
